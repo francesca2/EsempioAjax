@@ -1,4 +1,4 @@
-package it.alfasoft.vahid;
+package it.alfasoft.francesca;
 
 public class Studente {
  

@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
 	  var dataInserito=$("#txt").val();
 	  
 	  // parametri dentro url => http:// ...  ?matricola=valore 
-	  var parametroInput="matricoloa="+dataInserito;
+	  var parametroInput="matr="+dataInserito;
 	  
 	  
 	  $.ajax({
@@ -28,8 +28,8 @@ jQuery(document).ready(function() {
 			  if(data.success){
 				  
 				  $("#risposta").html("");
-				  $("#risposta").append("<p>nome =" + data.studente.nome+"</p>");
-				  $("#risposta").append("<p>cognome =" + data.studente.cognome+"</p>");
+				  $("#risposta").append("<p>nome :" + data.studente.nome+"</p>");
+				  $("#risposta").append("<p>cognome :" + data.studente.cognome+"</p>");
 			  }else{
 				  $("#risposta").html("");
 				  $("#risposta").append("<p> quello studente non esiste </p>");

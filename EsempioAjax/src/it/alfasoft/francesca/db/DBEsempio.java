@@ -1,6 +1,6 @@
-package it.alfasoft.vahid.db;
+package it.alfasoft.francesca.db;
 
-import it.alfasoft.vahid.Studente;
+import it.alfasoft.francesca.Studente;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,7 @@ public class DBEsempio {
 
 	public DBEsempio() {
 		
-		Studente s1=new Studente("vahid","Khoshkhou","aaa");
+		Studente s1=new Studente("Francesca","Giordani","aaa");
 		Studente s2=new Studente("Andrea","Laneri","bbb");
 		Studente s3=new Studente("Martina","Debernardi","ccc");
 		

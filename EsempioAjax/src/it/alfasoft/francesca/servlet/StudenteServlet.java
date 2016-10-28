@@ -1,7 +1,7 @@
-package it.alfasoft.vahid.servllet;
+package it.alfasoft.francesca.servlet;
 
-import it.alfasoft.vahid.Studente;
-import it.alfasoft.vahid.dao.StudenteDao;
+import it.alfasoft.francesca.Studente;
+import it.alfasoft.francesca.dao.StudenteDao;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -30,7 +30,7 @@ public class StudenteServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		
-		String matricola=request.getParameter("matricoloa");
+		String matricola=request.getParameter("matr");
 		
 		
 		PrintWriter out=response.getWriter();

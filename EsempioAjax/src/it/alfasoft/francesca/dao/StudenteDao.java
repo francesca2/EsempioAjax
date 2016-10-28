@@ -1,7 +1,7 @@
-package it.alfasoft.vahid.dao;
+package it.alfasoft.francesca.dao;
 
-import it.alfasoft.vahid.Studente;
-import it.alfasoft.vahid.db.DBEsempio;
+import it.alfasoft.francesca.Studente;
+import it.alfasoft.francesca.db.DBEsempio;
 
 public class StudenteDao {
 	DBEsempio db=new DBEsempio();
